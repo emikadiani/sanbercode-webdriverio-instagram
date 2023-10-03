@@ -56,11 +56,11 @@ exports.config = {
         platformName: 'Android',
         'appium:deviceName': 'Redmi Note 8 Pro',
         'appium:platformVersion': '11 RP1A.200720.011',
-        'appium:automationName': 'UiAutomator2',
+        'appium:automationName': 'UIAutomator2',
         'appium:appPackage':'com.instagram.android',
         'appium:appActivity':'com.instagram.mainactivity.LauncherActivity',
-        'appium:noReset':true,
-        'appium:autoGrantPermissions':true
+        'appium:noReset': true,
+        'appium:autoGrantPermissions': true
     }],
 
     //
