@@ -1,6 +1,15 @@
 const delayHelper = require('../../helper/delayHelper')
 
 class InstagramPage {
+
+    get homePage(){
+        return $('xpath://android.widget.FrameLayout[@content-desc="Beranda"]/android.view.ViewGroup')
+    }
+
+    async clickHomePage(){
+        await this.homePage.click();
+    }
+
     get searchButton(){
         return $('xpath://android.widget.FrameLayout[@content-desc="Cara dan Jelajahi"]')
     }
