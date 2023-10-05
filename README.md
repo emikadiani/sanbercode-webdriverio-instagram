@@ -1,6 +1,6 @@
 # sanbercode-webdriverio-instagram
 
-***Please be informed that this repository is updated, while the post on linkedin and real-time video for this particular code is used the older version of code.***
+***Please be informed that this repository is updated. You might find the LinkedIn post related to this repository contains a video that has a different code due to that particular test execution still using the older version.***
 
 ## Introduction
 A mobile automation testing practice using Appium and WebdriverIO for a testing of Instagram application in Android device. As a course assignment at Sanbercode batch 49, mentored by Mr. Rizqi Fauzan.
